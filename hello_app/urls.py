@@ -1,6 +1,7 @@
 from django.urls import path
-from .views import hello_world  # Import the hello_world view function
+from .views import hello_world, hello_world_html
 
 urlpatterns = [
-    path('hello/', hello_world),  # Define the 'hello/' route, mapped to hello_world view
+    path('hello/', hello_world),  # JSON response
+    path('hello_html/', hello_world_html),  # HTML response
 ]
