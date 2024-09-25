@@ -7,3 +7,7 @@ This is a simple Django web application that returns a JSON response saying "Hel
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/hello-world-django.git
+   
+## 2. run the below command after cloning 
+## python manage.py runserver
+
